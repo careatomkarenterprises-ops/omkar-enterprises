@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom brand colors */
+:root {
+  --omkar-blue: #004aad;
+  --omkar-gold: #fbbf24;
+}
+
+.text-omkarBlue {
+  color: var(--omkar-blue);
+}
+.bg-omkarBlue {
+  background-color: var(--omkar-blue);
+}
+.border-omkarBlue {
+  border-color: var(--omkar-blue);
+}
