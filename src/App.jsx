@@ -5,8 +5,8 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Services from "./pages/Services";
-import Blog from "./pages/Blog";
-import Contact from "./pages/Contact";
+import Blog from "./pages/blog";      // lowercase matches file
+import Contact from "./pages/contact"; // lowercase matches file
 
 export default function App() {
   return (
@@ -25,4 +25,3 @@ export default function App() {
     </Router>
   );
 }
-
